@@ -81,7 +81,7 @@
             <li><strong>YouTube workspace data.</strong> Imported metadata, channel identity, localization state, and translation drafts are stored in the app’s local project state.</li>
             <li><strong>Activity history.</strong> A local operation log can contain operation results, error messages, and video titles. It does not intentionally contain OAuth tokens, AI API keys, or Google passwords.</li>
             <li><strong>Recovery copies.</strong> LocaleArc keeps a local backup of project state to protect drafts from file corruption. The backup is covered by the same retention and deletion rules as the primary state.</li>
-            <li><strong>Preferences and purchases.</strong> App settings and trial state are stored locally. App Store purchases are processed by Apple; LocaleArc receives only StoreKit entitlement information, not payment-card details.</li>
+            <li><strong>Preferences and purchases.</strong> App settings and trial state are stored locally. After YouTube data is deleted, trial state may retain only a non-identifying “trial used” flag and the selected trial language; it does not retain a YouTube video or channel identifier. App Store purchases are processed by Apple; LocaleArc receives only StoreKit entitlement information, not payment-card details.</li>
           </ul>
           <p>In sandboxed App Store builds, project state is inside the app container under <code>Library/Application Support/YouTubeLocalizer/</code>. Existing non-App-Store builds use <code>~/Library/Application Support/YouTubeLocalizer/</code>. The legacy folder name is retained so updates do not hide existing drafts.</p>
 
@@ -92,7 +92,7 @@
 
           <h2 id="retention">5. Retention, refresh, revocation, and deletion</h2>
           <p>A successful full channel refresh records a local refresh date. YouTube metadata and related drafts may remain available for up to 30 calendar days. On the next app launch, LocaleArc removes YouTube metadata, related drafts, channel identity, and related activity history that have not been fully refreshed within that period before using or displaying them.</p>
-          <p>Choosing <strong>Disconnect</strong> in LocaleArc asks Google to revoke the OAuth token and immediately removes the local OAuth credential, cached YouTube metadata, channel identity, unpublished drafts, related activity history, and recovery copies. App preferences and StoreKit purchase state remain. Content already published to YouTube is not deleted by clearing LocaleArc’s local data.</p>
+          <p>Choosing <strong>Disconnect</strong> in LocaleArc asks Google to revoke the OAuth token and immediately removes the local OAuth credential, cached YouTube metadata, channel identity, unpublished drafts, related activity history, YouTube identifiers in trial state, and recovery copies. App preferences, StoreKit purchase state, and a non-identifying “trial used” flag may remain. Content already published to YouTube is not deleted by clearing LocaleArc’s local data.</p>
           <p>If Google’s revocation endpoint cannot be reached, LocaleArc still removes local credentials and YouTube data and warns you that Google access may remain active. You can revoke access from <a href="https://security.google.com/settings/security/permissions">Google Account permissions</a>. If access is revoked outside LocaleArc, the app detects an unusable token on the next refresh or API operation and removes the related local YouTube data.</p>
 
           <h2 id="choices">6. Your choices</h2>
@@ -135,6 +135,7 @@
             <li>İçe aktarılan video bilgileri, kanal kimliği, yerelleştirme durumu ve çeviri taslakları yerel proje durumunda saklanır.</li>
             <li>Yerel işlem günlüğü sonuç, hata mesajı ve video başlığı içerebilir; OAuth belirteci, AI anahtarı veya Google parolası bilerek kaydedilmez.</li>
             <li>Dosya bozulmasına karşı yerel bir kurtarma kopyası tutulur; birincil durumla aynı saklama ve silme kurallarına tabidir.</li>
+            <li>Uygulama tercihleri ve deneme durumu yerelde saklanır. YouTube verileri silindikten sonra deneme durumu yalnızca kimlik belirtmeyen “deneme kullanıldı” işaretini ve seçilen deneme dilini tutabilir; YouTube video veya kanal kimliği tutulmaz. App Store satın almalarını Apple işler; LocaleArc ödeme kartı bilgisi almaz.</li>
           </ul>
           <p>Sandbox’lı App Store sürümünde proje verileri uygulama kapsayıcısındaki <code>Library/Application Support/YouTubeLocalizer/</code> yolundadır. Eski doğrudan dağıtım sürümleri <code>~/Library/Application Support/YouTubeLocalizer/</code> yolunu kullanır. Güncellemelerde mevcut taslakların kaybolmaması için eski klasör adı korunur.</p>
 
@@ -144,7 +145,7 @@
 
           <h2>5. Saklama, yenileme ve silme</h2>
           <p>Başarılı tam kanal yenilemesi yerel bir yenileme tarihi kaydeder. YouTube üst verileri ve ilişkili taslaklar en fazla 30 takvim günü kullanılabilir. Tam yenilemeden sonra 30 günü geçen veriler, uygulama bir sonraki kez açıldığında kullanılmadan veya gösterilmeden önce video bilgileri, taslaklar, kanal kimliği, ilişkili günlük ve kurtarma kopyalarıyla birlikte silinir.</p>
-          <p>LocaleArc’ta <strong>Bağlantıyı Kes</strong> seçildiğinde uygulama Google’dan OAuth belirtecini kaldırmasını ister ve yerel kimlik bilgisini, YouTube verilerini, yayımlanmamış taslakları, ilişkili günlüğü ve kurtarma kopyalarını hemen siler. Daha önce YouTube’a yayınlanan içerik silinmez.</p>
+          <p>LocaleArc’ta <strong>Bağlantıyı Kes</strong> seçildiğinde uygulama Google’dan OAuth belirtecini kaldırmasını ister ve yerel kimlik bilgisini, YouTube verilerini, yayımlanmamış taslakları, ilişkili günlüğü, deneme durumundaki YouTube kimliklerini ve kurtarma kopyalarını hemen siler. Uygulama tercihleri, StoreKit satın alma durumu ve kimlik belirtmeyen “deneme kullanıldı” işareti kalabilir. Daha önce YouTube’a yayınlanan içerik silinmez.</p>
           <p>Google kaldırma servisine ulaşılamazsa yerel veriler yine silinir ve Google erişiminin etkin kalabileceği bildirilir. Erişimi <a href="https://security.google.com/settings/security/permissions">Google Hesabı izinlerinden</a> ayrıca kaldırabilirsiniz. Google tarafında kaldırılan veya yenilenemeyen bir izin sonraki API işleminde algılanır ve ilgili yerel YouTube verileri temizlenir.</p>
 
           <h2>6. Seçimleriniz</h2>
