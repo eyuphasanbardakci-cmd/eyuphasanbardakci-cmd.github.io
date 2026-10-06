@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidade do LocaleArc: acesso a dados do Google e do YouTube, armazenamento local, retenção, exclusão e processamento por terceiros.">
+  <meta name="theme-color" content="#111a36">
+  <title>LocaleArc — Política de Privacidade</title>
+  <link rel="canonical" href="https://localearc.com/pt-br/privacy/">
+  <meta property="og:site_name" content="LocaleArc">
+  <meta property="og:title" content="LocaleArc — Política de Privacidade">
+  <meta property="og:url" content="https://localearc.com/pt-br/privacy/">
+  <meta property="og:image" content="https://localearc.com/assets/localearc-google-branding-la-v2-120.png">
+  <link rel="icon" href="/assets/localearc-google-branding-la-v2-120.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/localearc-google-branding-la-v2-120.png">
+  <link rel="stylesheet" href="/assets/site.css">
+<link rel="alternate" hreflang="en" href="https://localearc.com/privacy/"><link rel="alternate" hreflang="tr" href="https://localearc.com/tr/privacy/"><link rel="alternate" hreflang="de" href="https://localearc.com/de/privacy/"><link rel="alternate" hreflang="es" href="https://localearc.com/es/privacy/"><link rel="alternate" hreflang="fr" href="https://localearc.com/fr/privacy/"><link rel="alternate" hreflang="pt-BR" href="https://localearc.com/pt-br/privacy/"><link rel="alternate" hreflang="x-default" href="https://localearc.com/privacy/"></head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="/pt-br/" aria-label="Página inicial do LocaleArc">
+        <img class="brand-icon" src="/assets/localearc-google-branding-la-v2-120.png" alt="" width="34" height="34">
+        <span>LocaleArc</span>
+      </a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="/pt-br/">Produto</a>
+        <a aria-current="page" href="/pt-br/privacy/">Privacidade</a>
+        <a href="/pt-br/terms/">Termos</a>
+        <a href="mailto:anatolianapps@gmail.com">Contato</a>
+
+      <details class="language-menu"><summary aria-label="Escolher idioma">Português (Brasil)</summary><nav class="language-options" aria-label="Idioma"><a href="/privacy/" lang="en" hreflang="en" aria-label="English">English</a><a href="/tr/privacy/" lang="tr" hreflang="tr" aria-label="Türkçe">Türkçe</a><a href="/de/privacy/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a><a href="/es/privacy/" lang="es" hreflang="es" aria-label="Español">Español</a><a href="/fr/privacy/" lang="fr" hreflang="fr" aria-label="Français">Français</a><a href="/pt-br/privacy/" lang="pt-BR" hreflang="pt-BR" aria-label="Português (Brasil)" aria-current="true">Português (Brasil)</a></nav></details></nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-shell">
+        <p class="eyebrow">Privacidade</p>
+        <h1>Política de Privacidade</h1>
+        <p class="page-intro">Como o LocaleArc acessa, usa, armazena, atualiza e exclui dados de usuários do Google e outras informações processadas no seu Mac.</p>
+        <p class="metadata">Última atualização: 5 de outubro de 2026</p>
+      </div>
+    </section>
+
+    <div class="page-shell policy-layout">
+      <nav class="policy-nav" aria-label="Sumário da política de privacidade">
+        <strong>Nesta página</strong>
+        <a href="#overview">Visão geral</a>
+        <a href="#google-data">Dados do Google / YouTube</a>
+        <a href="#storage">Armazenamento local</a>
+        <a href="#third-parties">Terceiros</a>
+        <a href="#purchases">Compras e RevenueCat</a>
+        <a href="#retention">Retenção e exclusão</a>
+        <a href="#choices">Suas escolhas</a>
+        <a href="#contact">Contato</a>
+
+      </nav>
+
+      <div class="policy-content">
+        <article class="policy-card">
+          <h2 id="overview">1. Visão geral e desenvolvedor</h2>
+          <p>O LocaleArc é um aplicativo macOS oferecido pela <strong>Anatolia Apps</strong>. Ele ajuda proprietários de canais a carregar metadados de vídeos do YouTube, preparar títulos e descrições localizados, revisar rascunhos e publicar apenas localizações aprovadas.</p>
+          <p>O LocaleArc não possui um sistema de contas nem um servidor em nuvem operados pelo desenvolvedor e não usa SDKs de publicidade ou rastreamento publicitário entre apps. A Anatolia Apps não recebe suas credenciais do Google, dados da API do YouTube, arquivos de projeto ou chaves de provedores de IA. As solicitações ao YouTube e à IA vão diretamente do seu Mac para o serviço correspondente. O RevenueCat processa informações de compras para o acesso Pro e os relatórios de compras, conforme explicado abaixo.</p>
+
+          <h2 id="google-data">2. Dados do Google e do YouTube</h2>
+          <p>O LocaleArc usa a YouTube Data API v3 e solicita este escopo OAuth sensível:</p>
+          <p><code>https://www.googleapis.com/auth/youtube.force-ssl</code></p>
+          <p>O Google descreve esse escopo de forma ampla porque ele pode permitir que um cliente autorizado veja, edite e exclua permanentemente vídeos, avaliações, comentários e legendas do YouTube. O LocaleArc limita seu uso efetivo às funções do produto descritas aqui:</p>
+          <ul class="plain-list">
+            <li>identificar o canal do YouTube conectado pelo usuário;</li>
+            <li>ler os vídeos enviados pelo canal e seus metadados, incluindo IDs de vídeos, títulos, descrições, informações de idioma, miniaturas, datas de publicação, categorias e localizações existentes;</li>
+            <li>adicionar, atualizar ou remover títulos e descrições localizados de vídeos somente depois que um usuário inicia a ação de publicação ou remoção correspondente.</li>
+          </ul>
+          <p>O LocaleArc não faz upload de vídeos nem os exclui, não publica comentários e não altera avaliações ou a visibilidade de um vídeo. A autenticação do Google ocorre na sessão de autenticação do sistema; o LocaleArc nunca vê sua senha do Google.</p>
+          <p>O uso e a transferência pelo LocaleArc das informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo seus requisitos de Uso Limitado (Limited Use). O uso dos YouTube API Services também está sujeito aos <a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">Termos de Serviço dos Serviços de API do YouTube</a> e às <a href="https://developers.google.com/youtube/terms/developer-policies">Políticas para Desenvolvedores dos Serviços de API do YouTube</a>.</p>
+
+          <h2 id="storage">3. Informações armazenadas no seu Mac</h2>
+          <ul class="plain-list">
+            <li><strong>Credenciais OAuth.</strong> Os tokens de acesso e de atualização do Google são armazenados como itens de senha genérica nas Chaves do macOS, sob o serviço <code>com.localizer.app.secrets</code>.</li>
+            <li><strong>Dados do espaço de trabalho do YouTube.</strong> Os metadados importados, a identidade do canal, o estado das localizações e os rascunhos de tradução são armazenados no estado local do projeto do app.</li>
+            <li><strong>Histórico de atividades.</strong> Um registro local de operações pode conter resultados de operações, mensagens de erro e títulos de vídeos. Ele não contém intencionalmente tokens OAuth, chaves de API de provedores de IA ou senhas do Google.</li>
+            <li><strong>Cópias de recuperação.</strong> O LocaleArc mantém um backup local do estado do projeto para proteger os rascunhos contra a corrupção de arquivos. O backup está sujeito às mesmas regras de retenção e exclusão do estado principal.</li>
+            <li><strong>Preferências e compras.</strong> As configurações do app e o estado do período de teste são armazenados localmente. Após a exclusão dos dados do YouTube, o estado do teste pode manter apenas um indicador não identificável de “teste utilizado” e o idioma de teste selecionado; ele não mantém um identificador de vídeo ou canal do YouTube. O app também armazena em cache local um ID anônimo de usuário do app RevenueCat e informações de acesso Pro. Os pagamentos da App Store são processados pela Apple; o LocaleArc não recebe dados de cartões de pagamento.</li>
+          </ul>
+          <p>Nas versões da App Store executadas em sandbox, o estado do projeto fica no contêiner do app, em <code>Library/Application Support/YouTubeLocalizer/</code>. As versões existentes distribuídas fora da App Store usam <code>~/Library/Application Support/YouTubeLocalizer/</code>. O nome antigo da pasta é mantido para que as atualizações não ocultem os rascunhos existentes.</p>
+
+          <h2 id="third-parties">4. Provedores de IA e outros terceiros</h2>
+          <p>Quando você solicita uma tradução, o LocaleArc envia o título de origem, a descrição de origem, os idiomas de destino e quaisquer instruções de tradução diretamente do seu Mac ao provedor de IA selecionado em Configurações: Google Gemini, OpenRouter ou Ollama Cloud. As solicitações usam a chave de API que você fornece para sua própria conta. A Anatolia Apps não intermedeia nem recebe essas solicitações.</p>
+          <ul class="plain-list">
+            <li><strong>Google Gemini.</strong> O uso dos dados depende da sua conta, da situação de faturamento e da região. Os <a href="https://ai.google.dev/gemini-api/terms">termos da API Gemini</a> distinguem serviços pagos e gratuitos; alguns serviços gratuitos permitem o aprimoramento de produtos e a revisão humana das entradas e saídas. Verifique os termos aplicáveis à sua conta.</li>
+            <li><strong>OpenRouter.</strong> O OpenRouter encaminha as solicitações aos provedores de modelos usados pelo modelo que você selecionou. O LocaleArc solicita provedores com <code>data_collection=deny</code>; isso não garante retenção zero. O OpenRouter e os provedores subsequentes têm políticas próprias de processamento, registro e retenção, descritas nas <a href="https://openrouter.ai/docs/guides/privacy/provider-logging">políticas de dados dos provedores</a>.</li>
+            <li><strong>Ollama Cloud.</strong> Esta opção usa o serviço em nuvem da Ollama, e não um modelo executado apenas no seu Mac. O conteúdo e as informações técnicas são processados de acordo com a <a href="https://ollama.com/privacy">Política de Privacidade da Ollama</a>.</li>
+          </ul>
+          <p>O LocaleArc não determina os termos da sua conta no provedor nem promete uma política universal de retenção ou treinamento de modelos. Você pode escrever, revisar e publicar traduções manualmente sem enviar o texto de origem a um provedor de IA.</p>
+          <p>Esses provedores processam as informações de acordo com seus próprios termos e políticas de privacidade. O Google e o YouTube processam solicitações OAuth e à API do YouTube de acordo com a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>. A Apple processa compras e reembolsos da App Store de acordo com a <a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a>.</p>
+          <p>O LocaleArc não vende dados de usuários do Google, não os usa para publicidade, não os transfere a corretores de dados e não os usa para criar perfis publicitários. Ele não compartilha dados de usuários do Google com a Anatolia Apps ou terceiros não relacionados.</p>
+
+          <h3 id="purchases">Compras e RevenueCat</h3>
+          <p>O LocaleArc usa o RevenueCat para verificar compras da App Store, gerenciar e restaurar o acesso Pro e fornecer análises e relatórios de compras à Anatolia Apps. Quando os serviços de compras são inicializados, incluindo as verificações Pro na abertura do app, o app se comunica com o RevenueCat usando um ID anônimo de usuário do app gerado aleatoriamente. Isso pode ocorrer antes de você conectar o YouTube ou fazer uma compra.</p>
+          <p>O RevenueCat processa o histórico de compras e os detalhes das transações, o status de acesso Pro e informações técnicas ou do dispositivo, como versões do app e do SDK, sistema operacional, modelo do dispositivo, idioma preferido e loja regional da App Store. O SDK pode incluir um identificador de fornecedor/dispositivo da Apple quando a Apple o disponibiliza. Esses dados servem à verificação de compras, ao gerenciamento de acesso e aos relatórios de compras; eles são separados da tradução e da publicação de vídeos.</p>
+          <p>O LocaleArc não envia ao RevenueCat sua conta do Google, identificadores de canais ou vídeos do YouTube, metadados de vídeos, rascunhos, endereço de e-mail, tokens OAuth ou chaves de API de provedores de IA. Ele não vincula seu ID de usuário do app RevenueCat à sua identidade do Google ou do YouTube nem envia identificadores publicitários. A Apple cuida dos dados do seu cartão de pagamento; nem o LocaleArc nem o RevenueCat recebem esses dados do cartão por meio desta integração.</p>
+          <p>O RevenueCat processa esses dados de compras em nome da Anatolia Apps para fornecer o serviço e os relatórios de compras. Mais informações estão disponíveis nas <a href="https://www.revenuecat.com/privacy">informações de privacidade do RevenueCat</a> e em suas <a href="https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy">orientações sobre análises de compras e privacidade de apps</a>. Os relatórios de compras são separados dos fluxos de conteúdo do YouTube e de IA descritos acima.</p>
+
+          <h2 id="retention">5. Retenção, atualização, revogação e exclusão</h2>
+          <p>Uma atualização completa bem-sucedida do canal registra uma data local de atualização. Os metadados do YouTube e os rascunhos relacionados podem permanecer disponíveis por até 30 dias corridos. Na próxima abertura do app, o LocaleArc remove os metadados do YouTube, os rascunhos relacionados, a identidade do canal e o histórico de atividades relacionado que não foram completamente atualizados nesse período, antes de usá-los ou exibi-los.</p>
+          <p>Selecionar <strong>Desconectar</strong> no LocaleArc solicita ao Google a revogação do token OAuth e remove imediatamente a credencial OAuth local, os metadados do YouTube em cache, a identidade do canal, os rascunhos não publicados, o histórico de atividades relacionado, os identificadores do YouTube no estado do teste e as cópias de recuperação. As preferências do app, os identificadores locais de compras, o estado de acesso Pro e um indicador não identificável de “teste utilizado” podem permanecer. O conteúdo já publicado no YouTube não é excluído ao limpar os dados locais do LocaleArc.</p>
+          <p>Se o endpoint de revogação do Google não puder ser acessado, o LocaleArc ainda remove as credenciais locais e os dados do YouTube e avisa que o acesso ao Google pode permanecer ativo. Você pode revogar o acesso nas <a href="https://security.google.com/settings/security/permissions">permissões da Conta do Google</a>. Se o acesso for revogado fora do LocaleArc, o app detecta um token inutilizável na próxima atualização ou operação da API e remove os dados locais do YouTube relacionados.</p>
+
+          <p>Desconectar o YouTube ou excluir os dados locais do app não exclui os registros de compras mantidos pela Apple ou pelo RevenueCat. A regra de 30 dias para dados do YouTube acima não se aplica aos registros de compras. Para perguntas sobre dados de compras ou uma solicitação de exclusão, entre em contato com <a href="mailto:anatolianapps@gmail.com">anatolianapps@gmail.com</a>; as solicitações são tratadas conforme os requisitos aplicáveis e os registros necessários para gerenciar os direitos de compra.</p>
+
+          <h2 id="choices">6. Suas escolhas</h2>
+          <ul class="plain-list">
+            <li>Não conecte o Google nem configure um provedor de IA se não quiser que o LocaleArc acesse esses serviços.</li>
+            <li>Use a edição manual em vez da geração por IA ou remova sua chave de IA em Configurações para interromper futuras solicitações de IA. A exclusão dos dados locais não exclui informações já processadas ou retidas por um provedor; use os controles da conta desse provedor ou seu processo de contato.</li>
+            <li>Use Configurações do YouTube → Desconectar para revogar o acesso e excluir os dados do YouTube armazenados localmente.</li>
+            <li>Use as <a href="https://security.google.com/settings/security/permissions">permissões da Conta do Google</a> para revisar ou revogar o acesso ao Google de forma independente.</li>
+            <li>Exclua o LocaleArc e seu contêiner de aplicativo ou a antiga pasta Application Support para remover os dados locais restantes do projeto e das preferências. O Acesso às Chaves pode remover quaisquer itens <code>com.localizer.app.secrets</code> restantes.</li>
+          </ul>
+          <div class="notice"><strong>Importante:</strong> excluir os dados armazenados pelo LocaleArc não exclui os dados armazenados pelo YouTube. Gerencie ou exclua o conteúdo do YouTube pelo YouTube ou por outro cliente autorizado.</div>
+
+          <h2>7. Segurança e crianças</h2>
+          <p>O LocaleArc usa HTTPS para solicitações aos serviços, PKCE com o fluxo OAuth de código de autorização, um valor de estado aleatório para validar os retornos, as Chaves do macOS para credenciais e o acesso de cliente de rede do App Sandbox. Nenhum método de armazenamento ou transmissão é totalmente isento de riscos.</p>
+          <p>O LocaleArc é destinado a proprietários de canais do YouTube e não é voltado a crianças menores de 13 anos. A Anatolia Apps não coleta conscientemente informações pessoais de crianças por meio do LocaleArc.</p>
+
+          <h2>8. Alterações da política</h2>
+          <p>A versão atual é publicada nesta página. Alterações relevantes serão identificadas pela data de “Última atualização” e, quando apropriado, nas notas de versão do app antes que o tratamento alterado entre em vigor.</p>
+
+          <h2 id="contact">9. Contato</h2>
+          <p>Perguntas sobre privacidade e suporte à exclusão: <a href="mailto:anatolianapps@gmail.com">anatolianapps@gmail.com</a></p>
+        </article>
+
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <span>© 2026 Anatolia Apps · LocaleArc para macOS</span>
+      <nav class="footer-links" aria-label="Navegação do rodapé">
+        <a href="/pt-br/privacy/">Privacidade</a>
+        <a href="/pt-br/terms/">Termos</a>
+        <a href="mailto:anatolianapps@gmail.com">anatolianapps@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

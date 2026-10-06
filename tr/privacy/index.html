@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LocaleArc gizlilik politikası: Google ve YouTube verilerine erişim, yerel depolama, saklama, silme ve üçüncü tarafların veri işlemesi.">
+  <meta name="theme-color" content="#111a36">
+  <title>LocaleArc — Gizlilik Politikası</title>
+  <link rel="canonical" href="https://localearc.com/tr/privacy/">
+  <meta property="og:site_name" content="LocaleArc">
+  <meta property="og:title" content="LocaleArc — Gizlilik Politikası">
+  <meta property="og:url" content="https://localearc.com/tr/privacy/">
+  <meta property="og:image" content="https://localearc.com/assets/localearc-google-branding-la-v2-120.png">
+  <link rel="icon" href="/assets/localearc-google-branding-la-v2-120.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/localearc-google-branding-la-v2-120.png">
+  <link rel="stylesheet" href="/assets/site.css">
+<link rel="alternate" hreflang="en" href="https://localearc.com/privacy/"><link rel="alternate" hreflang="tr" href="https://localearc.com/tr/privacy/"><link rel="alternate" hreflang="de" href="https://localearc.com/de/privacy/"><link rel="alternate" hreflang="es" href="https://localearc.com/es/privacy/"><link rel="alternate" hreflang="fr" href="https://localearc.com/fr/privacy/"><link rel="alternate" hreflang="pt-BR" href="https://localearc.com/pt-br/privacy/"><link rel="alternate" hreflang="x-default" href="https://localearc.com/privacy/"></head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="/tr/" aria-label="LocaleArc ana sayfa">
+        <img class="brand-icon" src="/assets/localearc-google-branding-la-v2-120.png" alt="" width="34" height="34">
+        <span>LocaleArc</span>
+      </a>
+      <nav class="site-nav" aria-label="Ana gezinme">
+        <a href="/tr/">Ürün</a>
+        <a aria-current="page" href="/tr/privacy/">Gizlilik</a>
+        <a href="/tr/terms/">Koşullar</a>
+        <a href="mailto:anatolianapps@gmail.com">İletişim</a>
+
+      <details class="language-menu"><summary aria-label="Dil seçin">Türkçe</summary><nav class="language-options" aria-label="Dil"><a href="/privacy/" lang="en" hreflang="en" aria-label="English">English</a><a href="/tr/privacy/" lang="tr" hreflang="tr" aria-label="Türkçe" aria-current="true">Türkçe</a><a href="/de/privacy/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a><a href="/es/privacy/" lang="es" hreflang="es" aria-label="Español">Español</a><a href="/fr/privacy/" lang="fr" hreflang="fr" aria-label="Français">Français</a><a href="/pt-br/privacy/" lang="pt-BR" hreflang="pt-BR" aria-label="Português (Brasil)">Português (Brasil)</a></nav></details></nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-shell">
+        <p class="eyebrow">Gizlilik</p>
+        <h1>Gizlilik Politikası</h1>
+        <p class="page-intro">LocaleArc’ın Google kullanıcı verilerine ve Mac’inizde işlenen diğer bilgilere nasıl eriştiği, bunları nasıl kullandığı, sakladığı, yenilediği ve sildiği.</p>
+        <p class="metadata">Son güncelleme: 5 Ekim 2026</p>
+      </div>
+    </section>
+
+    <div class="page-shell policy-layout">
+      <nav class="policy-nav" aria-label="Gizlilik politikası içindekiler">
+        <strong>Bu sayfada</strong>
+        <a href="#overview">Genel bakış</a>
+        <a href="#google-data">Google / YouTube verileri</a>
+        <a href="#storage">Yerel depolama</a>
+        <a href="#third-parties">Üçüncü taraflar</a>
+        <a href="#purchases">Satın almalar ve RevenueCat</a>
+        <a href="#retention">Saklama ve silme</a>
+        <a href="#choices">Seçimleriniz</a>
+        <a href="#contact">İletişim</a>
+
+      </nav>
+
+      <div class="policy-content">
+        <article class="policy-card">
+          <h2 id="overview">1. Genel bilgi ve geliştirici</h2>
+          <p>LocaleArc, <strong>Anatolia Apps</strong> tarafından sunulan bir macOS uygulamasıdır. Kanal sahiplerinin YouTube video üst verilerini yüklemesine, yerelleştirilmiş başlık ve açıklamalar hazırlamasına, taslakları incelemesine ve yalnızca onaylanan yerelleştirmeleri yayımlamasına yardımcı olur.</p>
+          <p>LocaleArc’ın geliştirici tarafından işletilen bir hesap sistemi veya bulut arka ucu yoktur; reklam SDK’ları ya da uygulamalar arası reklam takibi kullanmaz. Anatolia Apps; Google kimlik bilgilerinizi, YouTube API verilerinizi, proje dosyalarınızı veya AI sağlayıcı anahtarlarınızı almaz. YouTube ve AI istekleri doğrudan Mac’inizden ilgili hizmete gider. RevenueCat, aşağıda açıklandığı gibi Pro erişimi ve satın alma raporları için satın alma bilgilerini işler.</p>
+
+          <h2 id="google-data">2. Google ve YouTube verileri</h2>
+          <p>LocaleArc, YouTube Data API v3’ü kullanır ve şu hassas OAuth kapsamını talep eder:</p>
+          <p><code>https://www.googleapis.com/auth/youtube.force-ssl</code></p>
+          <p>Google bu kapsamı geniş biçimde tanımlar; çünkü yetkilendirilmiş bir istemcinin YouTube videolarını, derecelendirmeleri, yorumları ve altyazıları görmesine, düzenlemesine ve kalıcı olarak silmesine izin verebilir. LocaleArc bu kapsamı fiilen yalnızca burada açıklanan ürün işlevleri için kullanır:</p>
+          <ul class="plain-list">
+            <li>kullanıcının bağladığı YouTube kanalını tanımak;</li>
+            <li>kanalın yüklemelerini ve video kimlikleri, başlıklar, açıklamalar, dil bilgileri, küçük resimler, yayın tarihleri, kategoriler ve mevcut yerelleştirmeler dahil video üst verilerini okumak;</li>
+            <li>yerelleştirilmiş video başlıklarını ve açıklamalarını yalnızca kullanıcı ilgili yayımlama veya kaldırma işlemini başlattıktan sonra eklemek, güncellemek ya da kaldırmak.</li>
+          </ul>
+          <p>LocaleArc video yüklemez veya silmez, yorum göndermez, derecelendirmeleri ya da bir videonun görünürlüğünü değiştirmez. Google kimlik doğrulaması sistem kimlik doğrulama oturumunda gerçekleşir; LocaleArc Google parolanızı hiçbir zaman görmez.</p>
+          <p>LocaleArc’ın Google API’lerinden aldığı bilgileri kullanması ve aktarması, Sınırlı Kullanım gereklilikleri dahil <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> hükümlerine uygundur. YouTube API Services kullanımı ayrıca <a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">YouTube API Services Kullanım Koşulları</a> ve <a href="https://developers.google.com/youtube/terms/developer-policies">YouTube API Services Geliştirici Politikaları</a>na tabidir.</p>
+
+          <h2 id="storage">3. Mac’inizde saklanan bilgiler</h2>
+          <ul class="plain-list">
+            <li><strong>OAuth kimlik bilgileri.</strong> Google erişim ve yenileme belirteçleri macOS Keychain’de <code>com.localizer.app.secrets</code> hizmeti altında genel parola öğeleri olarak saklanır.</li>
+            <li><strong>YouTube çalışma alanı verileri.</strong> İçe aktarılan üst veriler, kanal kimliği, yerelleştirme durumu ve çeviri taslakları uygulamanın yerel proje durumunda saklanır.</li>
+            <li><strong>Etkinlik geçmişi.</strong> Yerel işlem günlüğü işlem sonuçları, hata mesajları ve video başlıkları içerebilir. OAuth belirteçlerini, AI API anahtarlarını veya Google parolalarını kasıtlı olarak içermez.</li>
+            <li><strong>Kurtarma kopyaları.</strong> LocaleArc, taslakları dosya bozulmasına karşı korumak için proje durumunun yerel bir yedeğini tutar. Yedek, birincil durumla aynı saklama ve silme kurallarına tabidir.</li>
+            <li><strong>Tercihler ve satın almalar.</strong> Uygulama ayarları ve deneme durumu yerel olarak saklanır. YouTube verileri silindikten sonra deneme durumunda yalnızca kimlik belirtmeyen bir “deneme kullanıldı” işareti ve seçilen deneme dili tutulabilir; YouTube video veya kanal kimliği tutulmaz. Uygulama ayrıca anonim bir RevenueCat uygulama kullanıcı kimliğini ve Pro erişim bilgisini yerel olarak önbelleğe alır. App Store ödemelerini Apple işler; LocaleArc ödeme kartı ayrıntılarını almaz.</li>
+          </ul>
+          <p>Sandbox’lı App Store sürümünde proje verileri uygulama kapsayıcısındaki <code>Library/Application Support/YouTubeLocalizer/</code> yolundadır. Eski doğrudan dağıtım sürümleri <code>~/Library/Application Support/YouTubeLocalizer/</code> yolunu kullanır. Güncellemelerde mevcut taslakların kaybolmaması için eski klasör adı korunur.</p>
+
+          <h2 id="third-parties">4. AI sağlayıcıları ve diğer üçüncü taraflar</h2>
+          <p>Çeviri istediğinizde LocaleArc; kaynak başlığı, kaynak açıklamayı, hedef dilleri ve varsa çeviri talimatlarını doğrudan Mac’inizden Ayarlar’da seçtiğiniz AI sağlayıcısına gönderir: Google Gemini, OpenRouter veya Ollama Cloud. İsteklerde kendi hesabınız için sağladığınız API anahtarı kullanılır. Anatolia Apps bu isteklere aracılık etmez ve istekleri almaz.</p>
+          <ul class="plain-list">
+            <li><strong>Google Gemini.</strong> Verilerin kullanımı hesabınıza, faturalandırma durumunuza ve bölgenize bağlıdır. <a href="https://ai.google.dev/gemini-api/terms">Gemini API koşulları</a> ücretli ve ücretsiz hizmetleri ayırır; bazı ücretsiz hizmetlerde girdi ve çıktıların ürün geliştirme ve insan incelemesi için kullanılması mümkündür. Hesabınız için geçerli koşulları kontrol edin.</li>
+            <li><strong>OpenRouter.</strong> OpenRouter, istekleri seçtiğiniz modelin kullandığı model sağlayıcılarına yönlendirir. LocaleArc <code>data_collection=deny</code> ayarıyla sağlayıcı talep eder; bu, sıfır saklama garantisi değildir. OpenRouter’ın ve aşağı akış sağlayıcılarının ayrı işleme, günlük tutma ve saklama politikaları <a href="https://openrouter.ai/docs/guides/privacy/provider-logging">sağlayıcı veri politikalarında</a> açıklanır.</li>
+            <li><strong>Ollama Cloud.</strong> Bu seçenek yalnızca Mac’inizde çalışan bir model değil, Ollama’nın bulut hizmetidir. İçerik ve teknik bilgiler <a href="https://ollama.com/privacy">Ollama Gizlilik Politikası</a> kapsamında işlenir.</li>
+          </ul>
+          <p>LocaleArc, sağlayıcı hesabınızın koşullarını belirlemez ve bütün sağlayıcılar için ortak bir saklama veya model eğitimi politikası sözü vermez. Kaynak metni bir AI sağlayıcısına göndermeden çevirileri elle yazabilir, inceleyebilir ve yayımlayabilirsiniz.</p>
+          <p>Bu sağlayıcılar bilgileri kendi koşulları ve gizlilik politikaları kapsamında işler. Google ve YouTube, OAuth ve YouTube API isteklerini <a href="https://policies.google.com/privacy">Google’ın Gizlilik Politikası</a> kapsamında işler. Apple, App Store satın almalarını ve iadeleri <a href="https://www.apple.com/legal/privacy/">Apple’ın Gizlilik Politikası</a> kapsamında işler.</p>
+          <p>LocaleArc Google kullanıcı verilerini satmaz, reklam amacıyla kullanmaz, veri aracılarına aktarmaz veya reklam profilleri oluşturmak için kullanmaz. Google kullanıcı verilerini Anatolia Apps ya da ilgisiz üçüncü taraflarla paylaşmaz.</p>
+
+          <h3 id="purchases">Satın almalar ve RevenueCat</h3>
+          <p>LocaleArc; App Store satın almalarını doğrulamak, Pro erişimini yönetmek ve geri yüklemek, Anatolia Apps’e satın alma analizi ve raporları sunmak için RevenueCat kullanır. Uygulama açılışındaki Pro kontrolleri dahil satın alma hizmetleri başlatıldığında uygulama, rastgele oluşturulan anonim bir uygulama kullanıcı kimliğiyle RevenueCat ile iletişim kurar. Bu iletişim YouTube’a bağlanmadan veya bir satın alma yapmadan önce de gerçekleşebilir.</p>
+          <p>RevenueCat; satın alma geçmişini ve işlem ayrıntılarını, Pro erişim durumunu ve uygulama ile SDK sürümleri, işletim sistemi, cihaz modeli, tercih edilen dil ve App Store satış bölgesi gibi teknik veya cihaz bilgilerini işler. SDK, Apple sağladığında uygulama geliştiricisine özgü bir cihaz kimliği (vendor identifier) de iletebilir. Bu veriler satın alma doğrulaması, erişim yönetimi ve satın alma raporlaması için kullanılır; video çevirisi ve yayımlamasından ayrıdır.</p>
+          <p>LocaleArc; Google hesabınızı, YouTube kanal veya video kimliklerinizi, video üst verilerinizi, taslaklarınızı, e-posta adresinizi, OAuth belirteçlerinizi ya da AI API anahtarlarınızı RevenueCat’e göndermez. RevenueCat uygulama kullanıcı kimliğinizi Google veya YouTube kimliğinizle ilişkilendirmez ve reklam kimlikleri göndermez. Ödeme kartı bilgilerinizi Apple işler; bu entegrasyon üzerinden LocaleArc veya RevenueCat kart ayrıntılarınızı almaz.</p>
+          <p>RevenueCat, satın alma hizmetini ve raporları sağlamak için bu satın alma verilerini Anatolia Apps adına işler. Daha fazla bilgi <a href="https://www.revenuecat.com/privacy">RevenueCat’in gizlilik açıklamasında</a> ve <a href="https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy">satın alma analizi ve uygulama gizliliği rehberinde</a> bulunabilir. Satın alma raporları, yukarıda açıklanan YouTube ve AI içerik akışlarından ayrıdır.</p>
+
+          <h2 id="retention">5. Saklama, yenileme, erişimi iptal etme ve silme</h2>
+          <p>Başarılı bir tam kanal yenilemesi yerel bir yenileme tarihi kaydeder. YouTube üst verileri ve ilişkili taslaklar en fazla 30 takvim günü kullanılabilir durumda kalabilir. Uygulama bir sonraki kez açıldığında LocaleArc, bu süre içinde tam olarak yenilenmemiş YouTube üst verilerini, ilişkili taslakları, kanal kimliğini ve ilişkili etkinlik geçmişini kullanmadan veya göstermeden önce kaldırır.</p>
+          <p>LocaleArc’ta <strong>Bağlantıyı Kes</strong> seçildiğinde uygulama Google’dan OAuth belirtecini iptal etmesini ister ve yerel OAuth kimlik bilgisini, önbellekteki YouTube üst verilerini, kanal kimliğini, yayımlanmamış taslakları, ilişkili etkinlik geçmişini, deneme durumundaki YouTube kimliklerini ve kurtarma kopyalarını hemen kaldırır. Uygulama tercihleri, yerel satın alma kimlikleri ve Pro erişim durumu ile kimlik belirtmeyen bir “deneme kullanıldı” işareti kalabilir. LocaleArc’ın yerel verilerini temizlemek, daha önce YouTube’da yayımlanmış içeriği silmez.</p>
+          <p>Google’ın erişim iptal uç noktasına ulaşılamazsa LocaleArc yine de yerel kimlik bilgilerini ve YouTube verilerini kaldırır; Google erişiminin etkin kalabileceği konusunda sizi uyarır. Erişimi <a href="https://security.google.com/settings/security/permissions">Google Hesabı izinlerinden</a> iptal edebilirsiniz. Erişim LocaleArc dışında iptal edilirse uygulama, bir sonraki yenileme veya API işleminde kullanılamayan belirteci algılar ve ilgili yerel YouTube verilerini kaldırır.</p>
+
+          <p>YouTube bağlantısını kesmek veya yerel uygulama verilerini silmek, Apple ya da RevenueCat’te tutulan satın alma kayıtlarını silmez. Yukarıdaki 30 günlük YouTube verisi kuralı satın alma kayıtları için geçerli değildir. Satın alma verileriyle ilgili sorularınız veya silme talebiniz için <a href="mailto:anatolianapps@gmail.com">anatolianapps@gmail.com</a> adresine yazabilirsiniz; talepler geçerli gereklilikler ve satın alma haklarını yönetmek için gereken kayıtlar dikkate alınarak ele alınır.</p>
+
+          <h2 id="choices">6. Seçimleriniz</h2>
+          <ul class="plain-list">
+            <li>LocaleArc’ın bu hizmetlere erişmesini istemiyorsanız Google’a bağlanmayın veya bir AI sağlayıcısı yapılandırmayın.</li>
+            <li>AI üretimi yerine elle düzenlemeyi kullanabilir veya gelecekteki AI isteklerini durdurmak için Ayarlar’dan AI anahtarınızı kaldırabilirsiniz. Yerel verileri silmek, bir sağlayıcının daha önce işlediği veya sakladığı bilgileri silmez; ilgili sağlayıcının hesap kontrollerini ya da iletişim yolunu kullanın.</li>
+            <li>Erişimi iptal edip yerelde saklanan YouTube verilerini silmek için YouTube Ayarları → Bağlantıyı Kes seçeneğini kullanın.</li>
+            <li>Google erişimini bağımsız olarak incelemek veya iptal etmek için <a href="https://security.google.com/settings/security/permissions">Google Hesabı izinlerini</a> kullanın.</li>
+            <li>Kalan yerel proje ve tercih verilerini silmek için LocaleArc’ı ve uygulama kapsayıcısını ya da eski Application Support klasörünü kaldırın. Keychain Access, kalan <code>com.localizer.app.secrets</code> öğelerini kaldırabilir.</li>
+          </ul>
+          <div class="notice"><strong>Önemli:</strong> LocaleArc’ın yerel verilerini silmek YouTube’da saklanan içeriği silmez. YouTube içeriğini YouTube veya başka bir yetkili istemci üzerinden yönetin.</div>
+
+          <h2>7. Güvenlik ve çocuklar</h2>
+          <p>LocaleArc; hizmet istekleri için HTTPS, OAuth yetkilendirme kodu akışında PKCE, geri çağrı doğrulaması için rastgele bir state değeri, kimlik bilgileri için macOS Keychain ve App Sandbox ağ istemcisi erişimi kullanır. Hiçbir saklama veya aktarım yöntemi tamamen risksiz değildir.</p>
+          <p>LocaleArc YouTube kanal sahipleri için tasarlanmıştır ve 13 yaş altı çocuklara yönelik değildir. Anatolia Apps, LocaleArc aracılığıyla çocuklardan bilerek kişisel bilgi toplamaz.</p>
+
+          <h2>8. Politika değişiklikleri</h2>
+          <p>Geçerli sürüm bu sayfada yayımlanır. Önemli değişiklikler, değişen veri işleme uygulamaları yürürlüğe girmeden önce “Son güncelleme” tarihiyle ve uygun olduğunda uygulama sürüm notlarıyla belirtilir.</p>
+
+          <h2 id="contact">9. İletişim</h2>
+          <p>Gizlilik soruları ve silme desteği: <a href="mailto:anatolianapps@gmail.com">anatolianapps@gmail.com</a></p>
+        </article>
+
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <span>© 2026 Anatolia Apps · macOS için LocaleArc</span>
+      <nav class="footer-links" aria-label="Alt bilgi gezinmesi">
+        <a href="/tr/privacy/">Gizlilik</a>
+        <a href="/tr/terms/">Koşullar</a>
+        <a href="mailto:anatolianapps@gmail.com">anatolianapps@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
