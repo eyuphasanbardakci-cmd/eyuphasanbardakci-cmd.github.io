@@ -3,19 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="LocaleArc, YouTube videolarının yerelleştirmelerini çevirmek ve onaylanan yerelleştirmeleri yayımlamak için yerel öncelikli bir macOS çalışma alanıdır.">
+  <meta name="description" content="YouTube başlık ve açıklamalarını tek bir çalışma alanında çevirin. Taslakları düzenleyin, seçtiğiniz çevirileri yayımlayın.">
   <meta name="theme-color" content="#111a36">
   <title>LocaleArc — macOS için YouTube yerelleştirme</title>
   <link rel="canonical" href="https://localearc.com/tr/">
   <meta property="og:site_name" content="LocaleArc">
   <meta property="og:title" content="LocaleArc — macOS için YouTube yerelleştirme">
   <meta property="og:url" content="https://localearc.com/tr/">
-  <meta property="og:image" content="https://localearc.com/assets/localearc-google-branding-la-v2-120.png">
+  <meta property="og:image" content="https://localearc.com/assets/product/social-preview.jpg">
   <link rel="icon" href="/assets/localearc-google-branding-la-v2-120.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/localearc-google-branding-la-v2-120.png">
   <link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/product-page.css">
+<meta property="og:description" content="YouTube başlık ve açıklamalarını tek bir çalışma alanında çevirin. Taslakları düzenleyin, seçtiğiniz çevirileri yayımlayın.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<script src="/assets/product-page.js" defer></script>
 <link rel="alternate" hreflang="en" href="https://localearc.com/"><link rel="alternate" hreflang="tr" href="https://localearc.com/tr/"><link rel="alternate" hreflang="de" href="https://localearc.com/de/"><link rel="alternate" hreflang="es" href="https://localearc.com/es/"><link rel="alternate" hreflang="fr" href="https://localearc.com/fr/"><link rel="alternate" hreflang="pt-BR" href="https://localearc.com/pt-br/"><link rel="alternate" hreflang="x-default" href="https://localearc.com/"></head>
-<body>
+<body class="product-home">
   <a class="skip-link" href="#main">İçeriğe geç</a>
 
   <header class="site-header">
@@ -25,43 +30,140 @@
         <span>LocaleArc</span>
       </a>
       <nav class="site-nav" aria-label="Ana gezinme">
-        <a aria-current="page" href="/tr/">Ürün</a>
-        <a href="/tr/privacy/">Gizlilik</a>
-        <a href="/tr/terms/">Koşullar</a>
-        <a href="mailto:anatolianapps@gmail.com">İletişim</a>
-
-      <details class="language-menu"><summary aria-label="Dil seçin">Türkçe</summary><nav class="language-options" aria-label="Dil"><a href="/" lang="en" hreflang="en" aria-label="English">English</a><a href="/tr/" lang="tr" hreflang="tr" aria-label="Türkçe" aria-current="true">Türkçe</a><a href="/de/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a><a href="/es/" lang="es" hreflang="es" aria-label="Español">Español</a><a href="/fr/" lang="fr" hreflang="fr" aria-label="Français">Français</a><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" aria-label="Português (Brasil)">Português (Brasil)</a></nav></details></nav>
+<a class="nav-product" aria-current="page" href="/tr/">Ürün</a>
+<a class="nav-workflow" href="#workflow">Nasıl çalışır?</a>
+<a href="#pricing">Fiyatlandırma</a>
+<a class="nav-download" href="https://apps.apple.com/app/localearc/id6816724027"><span>Mac için indir</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+<details class="language-menu"><summary aria-label="Dil seçin">Türkçe</summary><nav class="language-options" aria-label="Dil"><a href="/" lang="en" hreflang="en" aria-label="English">English</a><a href="/tr/" lang="tr" hreflang="tr" aria-label="Türkçe" aria-current="true">Türkçe</a><a href="/de/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a><a href="/es/" lang="es" hreflang="es" aria-label="Español">Español</a><a href="/fr/" lang="fr" hreflang="fr" aria-label="Français">Français</a><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" aria-label="Português (Brasil)">Português (Brasil)</a></nav></details></nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero">
-      <div class="page-shell hero-grid">
+  <section class="launch-hero">
+    <div class="page-shell">
+      <div class="launch-intro">
         <div>
-          <p class="eyebrow">Yerel öncelikli macOS çalışma alanı</p>
-          <h1>YouTube video bilgilerinizi daha ileriye taşıyın.</h1>
-          <p class="hero-copy">LocaleArc, kanal sahiplerinin video başlıklarını ve açıklamalarını çevirmesine, her taslağı incelemesine ve yalnızca onayladıkları yerelleştirmeleri yayımlamasına yardımcı olur.</p>
-          <div class="tag-row" aria-label="Ürünün öne çıkan özellikleri">
-            <span class="tag">macOS 14+</span>
-            <span class="tag">YouTube Data API v3</span>
-            <span class="tag">Kendi AI sağlayıcınız</span>
-            <span class="tag">Yerel çalışma alanı</span>
-          </div>
-        </div>
-
-        <div class="hero-panel" aria-label="LocaleArc iş akışına genel bakış">
-          <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-          <img class="hero-app-icon" src="/assets/localearc-google-branding-la-v2-120.png" alt="LocaleArc LA marka işareti" width="76" height="76">
-          <ol class="flow-list">
-            <li><span class="flow-number">01</span><span>Kendi YouTube kanalınıza bağlanın</span></li>
-            <li><span class="flow-number">02</span><span>Çeviri taslakları oluşturun ve düzenleyin</span></li>
-            <li><span class="flow-number">03</span><span>Yayımlanmadan önce onaylayın</span></li>
-          </ol>
+<p class="eyebrow">YOUTUBE YERELLEŞTİRME, MAC İÇİN</p>
+<h1>Videolarınız.<br>Daha çok dilde.</h1>
+</div>
+        <div class="launch-description">
+          <p>YouTube başlık ve açıklamalarını tek bir çalışma alanında çevirin. Taslakları düzenleyin, seçtiğiniz çevirileri yayımlayın.</p>
+          <div class="download-actions">
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>Mac için indir</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a><a class="tour-link" href="#tour"><svg aria-hidden="true" width="19" height="19" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"></circle><path d="m10 8 6 4-6 4Z"></path></svg><span>Ürün turunu izleyin</span></a>
+</div>
+          <p class="free-note">Bir videoyu bir dilde ücretsiz deneyin.</p>
+          <p class="compatibility-note">macOS 14 veya üzeri · Kendi AI API anahtarınız</p>
         </div>
       </div>
-    </section>
-
-    <section class="section section-tint" aria-labelledby="workflow-title">
+      <figure class="hero-workspace">
+        <div class="workspace-frame"><img class="" src="/assets/product/workspace-tr.webp" alt="Video kitaplığı, çeviri durumu ve incelemeye hazır bir taslak gösteren LocaleArc çalışma alanı." width="1590" height="880" loading="eager" decoding="async" fetchpriority="high"></div>
+        <figcaption><span>Kanalınız. Çevirileriniz. Son karar sizin.</span><span>Örnek içeriklerle gerçek uygulama ekranları.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="product-section" id="workflow" aria-labelledby="review-heading">
+    <div class="page-shell product-grid">
+      <div class="product-text">
+        <p class="eyebrow">Taslaktan yayımlamaya</p>
+<h2 id="review-heading">Her kelimede<br>karar sizin.</h2>
+<p>AI taslağı hazırlar. Kararları siz verirsiniz. Metni okuyun, ayrıntıları düzenleyin ve yayımlayacaklarınızı seçin.</p>
+        <ol class="workflow-steps">
+          <li>
+<h3>Kanalınızı bağlayın</h3>
+<p>Google ile giriş yapın ve yönettiğiniz YouTube kanalındaki videoları açın.</p>
+</li>
+          <li>
+<h3>Çevirin ve düzenleyin</h3>
+<p>Dillerinizi ve AI sağlayıcınızı seçin. Başlıkları ve açıklamaları çalışma alanınızda inceleyin.</p>
+</li>
+          <li>
+<h3>Onaylayın ve yayımlayın</h3>
+<p>Seçtiğiniz çevirileri birlikte yayımlayın ve hangi çevirilerin yayında olduğunu takip edin.</p>
+</li>
+        </ol>
+      </div>
+      <figure class="product-figure"><img class="" src="/assets/product/review-tr.webp" alt="Tam çeviri metnini ve yayımlanacak çevirilerin seçimini gösteren LocaleArc toplu inceleme ekranı." width="720" height="680" loading="lazy" decoding="async"></figure>
+    </div>
+  </section>
+  <section class="product-section tour-section" id="tour" aria-labelledby="tour-heading">
+    <div class="page-shell">
+      <p class="eyebrow">LOCALEARC’I YAKINDAN TANIYIN</p>
+<h2 id="tour-heading">Yeni çalışma düzeninize yakından bakın.</h2>
+      <video class="tour-player" controls playsinline preload="none" poster="/assets/product/tour-tr.jpg" aria-label="LocaleArc ürün turu">
+        <source type="video/mp4" src="/assets/product/tour-tr.mp4">
+        <track kind="captions" src="/assets/product/tour-tr.vtt" srclang="tr" label="Türkçe">
+        <a href="/assets/product/tour-tr.mp4">Ürün turu videosunu açın</a>
+      </video>
+      <p class="tour-caption">Örnek içeriklerle çekilmiş gerçek uygulama görüntülerinden hazırlanan kısa, sessiz ürün turu.</p>
+    </div>
+  </section>
+  <section class="product-section" aria-labelledby="languages-heading">
+    <div class="page-shell product-grid">
+      <figure class="product-figure language-figure"><img class="" src="/assets/product/languages-tr.webp" alt="İngilizcenin bölgesel seçeneklerini gösteren LocaleArc dil seçicisi." width="452" height="470" loading="lazy" decoding="async"></figure>
+      <div class="product-text">
+<p class="eyebrow">Diller ve bölgeler</p>
+<h2 id="languages-heading">Hedeflediğiniz kitleye<br>kendi dilinde ulaşın.</h2>
+<p>16 dil ve isteğe bağlı 17 bölgesel seçenek arasından seçim yapın. Her başlığı, açıklamayı ve çeviri durumunu bir arada görün.</p>
+</div>
+    </div>
+  </section>
+  <section class="product-section" aria-labelledby="providers-heading">
+    <div class="page-shell product-grid">
+      <div class="product-text">
+        <p class="eyebrow">AI sağlayıcınızı siz seçin</p>
+<h2 id="providers-heading">Anahtarınızı ekleyin.<br>Modelinizi seçin.</h2>
+<p>Kendi API anahtarınızla Gemini, OpenRouter veya Ollama Cloud kullanın. Çeviri istekleriniz doğrudan Mac’inizden seçtiğiniz sağlayıcıya gönderilir.</p>
+        <div class="provider-names" aria-label="AI sağlayıcınızı siz seçin">
+<span>Gemini</span><span>OpenRouter</span><span>Ollama Cloud</span>
+</div>
+        <p class="provider-note">AI sağlayıcısına erişim, kotalar ve kullanım ücretleri LocaleArc Pro’dan ayrıdır.</p>
+      </div>
+      <figure class="product-figure provider-figure"><img class="" src="/assets/product/providers-tr.webp" alt="Gemini, OpenRouter ve Ollama Cloud seçeneklerini gösteren LocaleArc AI ayarları." width="590" height="219" loading="lazy" decoding="async"></figure>
+    </div>
+  </section>
+  <section class="product-section" id="pricing" aria-labelledby="pricing-heading">
+    <div class="page-shell">
+      <div class="pricing-heading">
+<p class="eyebrow">SIRADAKİ VİDEONUZLA BAŞLAYIN</p>
+<h2 id="pricing-heading">Çalışma düzenini deneyin.<br>Daha fazlasına yer açın.</h2>
+</div>
+      <div class="price-grid">
+        <article class="price-card">
+          <h3>Ücretsiz</h3>
+<p class="price-description">LocaleArc’ı kendi kanalınızla tanıyın.</p>
+<p class="price-amount">0 USD</p>
+          <ul class="price-features">
+<li>Seçtiğiniz 1 dilde 1 video</li>
+<li>Taslağınızı inceleyin, düzenleyin ve yayımlayın</li>
+<li>Kendi AI sağlayıcınızı ve API anahtarınızı kullanın</li>
+</ul>
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>App Store’dan ücretsiz başlayın</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+        </article>
+        <article class="price-card price-card-pro">
+          <h3>LocaleArc Pro</h3>
+<p class="price-description">Düzenli çalıştığınız videolar ve diller için.</p>
+          <p class="price-amount"><span>3,99 USD</span><span class="price-period">/ ay</span></p>
+          <ul class="price-features">
+<li>Uygulamanın video ve dil sınırlarını kaldırın</li>
+<li>Açık video için birden fazla dilde taslak oluşturun</li>
+<li>Seçtiğiniz çevirileri inceleyin ve birlikte yayımlayın</li>
+</ul>
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>LocaleArc’ı edinin</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+        </article>
+      </div>
+      <p class="price-disclosure">ABD temel fiyatıdır. Apple, satın almadan önce yerel fiyatı ve koşulları gösterir. Pro, iptal edilene kadar her ay yenilenir. AI sağlayıcısının kullanım ücretleri ayrıdır.</p>
+    </div>
+  </section>
+  <section class="product-section" aria-labelledby="faq-heading">
+    <div class="page-shell">
+      <div class="faq-grid">
+        <h2 id="faq-heading">Başlamadan önce.</h2>
+        <div class="faq-list">
+<details><summary>Ücretsiz olarak neler yapabilirim?</summary><p>Seçtiğiniz 1 dilde 1 videoyu çevirin, ardından taslağı düzenleyip yayımlayın. Aynı videoyu seçtiğiniz dilde yeniden çevirebilirsiniz. AI sağlayıcısının koşulları ve varsa kullanım ücretleri geçerlidir.</p></details><details><summary>AI API anahtarı gerekiyor mu?</summary><p>Evet. Kendi Gemini, OpenRouter veya Ollama Cloud hesabınızı API anahtarınızla bağlayın. AI kullanımı, LocaleArc aboneliğinden ayrı olarak sağlayıcınız tarafından ücretlendirilir.</p></details><details><summary>LocaleArc ses veya altyazı çeviriyor mu?</summary><p>LocaleArc, YouTube video başlıkları ve açıklamalarıyla çalışır. Ses, video görüntüleri ve altyazılar bu çalışma akışının kapsamı dışındadır.</p></details><details><summary>Çevirilerim ne zaman yayımlanır?</summary><p>Taslakları siz inceler, yayımlamayı siz başlatırsınız. Toplu yayımlamada son işlem yalnızca seçtiğiniz çevirileri onaylar ve yayımlar.</p></details><details><summary>Başlamak için neler gerekiyor?</summary><p>macOS 14 veya üzerini çalıştıran bir Mac, yönettiğiniz YouTube kanalına erişim ve desteklenen AI sağlayıcılarından birine ait kendi API anahtarınız gerekir.</p></details>
+</div>
+      </div>
+      <details class="technical-disclosure" id="connections"><summary>Hesap bağlantıları ve verilerin işlenmesi</summary><div class="technical-body">
+<section class="section section-tint" aria-labelledby="workflow-title">
       <div class="page-shell">
         <div class="section-heading">
           <p class="eyebrow">Nasıl çalışır?</p>
@@ -142,9 +244,18 @@
     </section>
 
 
-  </main>
-
-  <footer class="site-footer">
+  </div></details>
+    </div>
+  </section>
+  <section class="final-download">
+    <div class="page-shell">
+<h2>Sıradaki videonuz.<br>Sıradaki diliniz.</h2>
+<p>Kanalınızı LocaleArc’a bağlayın ve bir çeviriyle başlayın.</p>
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>Mac için indir</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a><p class="compatibility-note">macOS 14 veya üzeri · Kendi AI API anahtarınız</p>
+</div>
+  </section>
+</main>
+<footer class="site-footer">
     <div class="footer-shell">
       <span>© 2026 Anatolia Apps · macOS için LocaleArc</span>
       <nav class="footer-links" aria-label="Alt bilgi gezinmesi">

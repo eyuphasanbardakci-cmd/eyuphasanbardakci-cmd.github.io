@@ -1,0 +1,718 @@
+{
+  "source_kind": "Native LocaleArc SwiftUI window captures with fictional Field Notes sample content",
+  "capture_dates": {
+    "en": "2026-10-14 to 2026-10-15",
+    "localized": "2026-11-05"
+  },
+  "operations": "Crop only, encode optimized WebP and JPEG. UI text and layout remain source pixels. No generative changes.",
+  "files": [
+    {
+      "file": "workspace-en.webp",
+      "locale": "en",
+      "scene": "workspace",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/01-editor.jpg",
+      "source_sha256": "bccf34e24397254b4b8086c90f87f1173adce74282bac10498103710b6b55877",
+      "crop": [
+        0,
+        38,
+        1590,
+        880
+      ],
+      "width": 1590,
+      "height": 880,
+      "bytes": 64740
+    },
+    {
+      "file": "workspace-en.jpg",
+      "locale": "en",
+      "scene": "workspace",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/01-editor.jpg",
+      "source_sha256": "bccf34e24397254b4b8086c90f87f1173adce74282bac10498103710b6b55877",
+      "crop": [
+        0,
+        38,
+        1590,
+        880
+      ],
+      "width": 1590,
+      "height": 880,
+      "bytes": 132988
+    },
+    {
+      "file": "languages-en.webp",
+      "locale": "en",
+      "scene": "languages",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/02-regions.jpg",
+      "source_sha256": "addded77cc6e662f400de0bfd0ad754f9805c89f2ef18968d8ba27287e026bac",
+      "crop": [
+        728,
+        462,
+        452,
+        470
+      ],
+      "width": 452,
+      "height": 470,
+      "bytes": 17732
+    },
+    {
+      "file": "languages-en.jpg",
+      "locale": "en",
+      "scene": "languages",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/02-regions.jpg",
+      "source_sha256": "addded77cc6e662f400de0bfd0ad754f9805c89f2ef18968d8ba27287e026bac",
+      "crop": [
+        728,
+        462,
+        452,
+        470
+      ],
+      "width": 452,
+      "height": 470,
+      "bytes": 27787
+    },
+    {
+      "file": "review-en.webp",
+      "locale": "en",
+      "scene": "review",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/03-bulk-review.jpg",
+      "source_sha256": "e19cb244daeb28418fb695f04c7286166361ec45c24cf2c0dd38712638582fd2",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 39226
+    },
+    {
+      "file": "review-en.jpg",
+      "locale": "en",
+      "scene": "review",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/03-bulk-review.jpg",
+      "source_sha256": "e19cb244daeb28418fb695f04c7286166361ec45c24cf2c0dd38712638582fd2",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 66633
+    },
+    {
+      "file": "providers-en.webp",
+      "locale": "en",
+      "scene": "providers",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/04-ai-providers.jpg",
+      "source_sha256": "bbcb3b3a0ec0c3c02fc39409c829ba060ee88cf0ea8d6a0b1a9b25daeac0e9ee",
+      "crop": [
+        108,
+        258,
+        590,
+        219
+      ],
+      "width": 590,
+      "height": 219,
+      "bytes": 8376
+    },
+    {
+      "file": "providers-en.jpg",
+      "locale": "en",
+      "scene": "providers",
+      "source": "design/app-store-en-2026-10-14/screenshots/raw-cua/04-ai-providers.jpg",
+      "source_sha256": "bbcb3b3a0ec0c3c02fc39409c829ba060ee88cf0ea8d6a0b1a9b25daeac0e9ee",
+      "crop": [
+        108,
+        258,
+        590,
+        219
+      ],
+      "width": 590,
+      "height": 219,
+      "bytes": 18096
+    },
+    {
+      "file": "workspace-tr.webp",
+      "locale": "tr",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/01-editor.jpg",
+      "source_sha256": "5ee264a1eed7b8c48afa3c6082dfb5826c0c8bbb25bce393cd13dc61c6c14d60",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 60952
+    },
+    {
+      "file": "workspace-tr.jpg",
+      "locale": "tr",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/01-editor.jpg",
+      "source_sha256": "5ee264a1eed7b8c48afa3c6082dfb5826c0c8bbb25bce393cd13dc61c6c14d60",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 121107
+    },
+    {
+      "file": "languages-tr.webp",
+      "locale": "tr",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/02-regions.jpg",
+      "source_sha256": "185f6bbf16228f8557c1a81e9df99ddb72162bcc7585a001727be9c1336975f7",
+      "crop": [
+        701,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 18704
+    },
+    {
+      "file": "languages-tr.jpg",
+      "locale": "tr",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/02-regions.jpg",
+      "source_sha256": "185f6bbf16228f8557c1a81e9df99ddb72162bcc7585a001727be9c1336975f7",
+      "crop": [
+        701,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 33372
+    },
+    {
+      "file": "review-tr.webp",
+      "locale": "tr",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/03-bulk-review.jpg",
+      "source_sha256": "f6cd35a2da5517c06637d64e6a05b3a673bb810e57f811fc9fc06b138d212a8c",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 37570
+    },
+    {
+      "file": "review-tr.jpg",
+      "locale": "tr",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/03-bulk-review.jpg",
+      "source_sha256": "f6cd35a2da5517c06637d64e6a05b3a673bb810e57f811fc9fc06b138d212a8c",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 64752
+    },
+    {
+      "file": "providers-tr.webp",
+      "locale": "tr",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/04-ai-providers.jpg",
+      "source_sha256": "cd8e05cd37168a6da838f5cb1b013e3ae0164aa8704e42f6636c55d926f7e5fe",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 8438
+    },
+    {
+      "file": "providers-tr.jpg",
+      "locale": "tr",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/tr/04-ai-providers.jpg",
+      "source_sha256": "cd8e05cd37168a6da838f5cb1b013e3ae0164aa8704e42f6636c55d926f7e5fe",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 18723
+    },
+    {
+      "file": "workspace-de.webp",
+      "locale": "de",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/de/01-editor.jpg",
+      "source_sha256": "638392486874e8123a4960050868d18db7243f5602e437795aea12387139e790",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 69072
+    },
+    {
+      "file": "workspace-de.jpg",
+      "locale": "de",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/de/01-editor.jpg",
+      "source_sha256": "638392486874e8123a4960050868d18db7243f5602e437795aea12387139e790",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 130904
+    },
+    {
+      "file": "languages-de.webp",
+      "locale": "de",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/de/02-regions.jpg",
+      "source_sha256": "7324aea3b50cb7e83079538ae72ad27ca70daf74e3ce55f0dc7d4e04612dd616",
+      "crop": [
+        665,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 19002
+    },
+    {
+      "file": "languages-de.jpg",
+      "locale": "de",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/de/02-regions.jpg",
+      "source_sha256": "7324aea3b50cb7e83079538ae72ad27ca70daf74e3ce55f0dc7d4e04612dd616",
+      "crop": [
+        665,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 31254
+    },
+    {
+      "file": "review-de.webp",
+      "locale": "de",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/de/03-bulk-review.jpg",
+      "source_sha256": "86e0b91ed0cbc132e46a0e2d3ad45f7fbe4fb8e4f94f6d956a024fd5c943a068",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 42364
+    },
+    {
+      "file": "review-de.jpg",
+      "locale": "de",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/de/03-bulk-review.jpg",
+      "source_sha256": "86e0b91ed0cbc132e46a0e2d3ad45f7fbe4fb8e4f94f6d956a024fd5c943a068",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 69564
+    },
+    {
+      "file": "providers-de.webp",
+      "locale": "de",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/de/04-ai-providers.jpg",
+      "source_sha256": "e012cdc3aab74e7d0bc6d0b41d5ae8b85f9d68b92a7419da6034313283df5a47",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 9402
+    },
+    {
+      "file": "providers-de.jpg",
+      "locale": "de",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/de/04-ai-providers.jpg",
+      "source_sha256": "e012cdc3aab74e7d0bc6d0b41d5ae8b85f9d68b92a7419da6034313283df5a47",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 19556
+    },
+    {
+      "file": "workspace-fr.webp",
+      "locale": "fr",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/01-editor.jpg",
+      "source_sha256": "5c7887ce0d441d4449c2342d1abacd8a6718c4904e139edac8af32e50c711410",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 65894
+    },
+    {
+      "file": "workspace-fr.jpg",
+      "locale": "fr",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/01-editor.jpg",
+      "source_sha256": "5c7887ce0d441d4449c2342d1abacd8a6718c4904e139edac8af32e50c711410",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 127537
+    },
+    {
+      "file": "languages-fr.webp",
+      "locale": "fr",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/02-regions.jpg",
+      "source_sha256": "03608536da781e0bf91347e926be5770b4c067fe603733a5e70dde5f2ed4d939",
+      "crop": [
+        666,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 18754
+    },
+    {
+      "file": "languages-fr.jpg",
+      "locale": "fr",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/02-regions.jpg",
+      "source_sha256": "03608536da781e0bf91347e926be5770b4c067fe603733a5e70dde5f2ed4d939",
+      "crop": [
+        666,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 30701
+    },
+    {
+      "file": "review-fr.webp",
+      "locale": "fr",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/03-bulk-review.jpg",
+      "source_sha256": "054692ebda40fdc06bc87e3b79b8e5da9e48ae92f38a053ba7f75972e1fe8766",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 40200
+    },
+    {
+      "file": "review-fr.jpg",
+      "locale": "fr",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/03-bulk-review.jpg",
+      "source_sha256": "054692ebda40fdc06bc87e3b79b8e5da9e48ae92f38a053ba7f75972e1fe8766",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 66685
+    },
+    {
+      "file": "providers-fr.webp",
+      "locale": "fr",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/04-ai-providers.jpg",
+      "source_sha256": "7924b3ee08a31d8ef378e8e4459d731a8748a88e160adbfc8b3efec7157e6f04",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 8742
+    },
+    {
+      "file": "providers-fr.jpg",
+      "locale": "fr",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/fr/04-ai-providers.jpg",
+      "source_sha256": "7924b3ee08a31d8ef378e8e4459d731a8748a88e160adbfc8b3efec7157e6f04",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 18670
+    },
+    {
+      "file": "workspace-es.webp",
+      "locale": "es",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/es/01-editor.jpg",
+      "source_sha256": "2a69fd145c01ac1e9fef6b51f4e329c8d6861e3ae4fdf4833a8ee8967a625a6f",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 66618
+    },
+    {
+      "file": "workspace-es.jpg",
+      "locale": "es",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/es/01-editor.jpg",
+      "source_sha256": "2a69fd145c01ac1e9fef6b51f4e329c8d6861e3ae4fdf4833a8ee8967a625a6f",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 127748
+    },
+    {
+      "file": "languages-es.webp",
+      "locale": "es",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/es/02-regions.jpg",
+      "source_sha256": "2cc9506f484af7e1523d4837c1377eee7ff5461215f843791d855617784de039",
+      "crop": [
+        682,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 19050
+    },
+    {
+      "file": "languages-es.jpg",
+      "locale": "es",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/es/02-regions.jpg",
+      "source_sha256": "2cc9506f484af7e1523d4837c1377eee7ff5461215f843791d855617784de039",
+      "crop": [
+        682,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 31215
+    },
+    {
+      "file": "review-es.webp",
+      "locale": "es",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/es/03-bulk-review.jpg",
+      "source_sha256": "f56ad5743edc7acdf5616788b7f73b8bc6b0cf4871a671631749c5cdbc48ff76",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 39322
+    },
+    {
+      "file": "review-es.jpg",
+      "locale": "es",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/es/03-bulk-review.jpg",
+      "source_sha256": "f56ad5743edc7acdf5616788b7f73b8bc6b0cf4871a671631749c5cdbc48ff76",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 65624
+    },
+    {
+      "file": "providers-es.webp",
+      "locale": "es",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/es/04-ai-providers.jpg",
+      "source_sha256": "bb1e5a63c8a47d9eb8ebd4d6efd5f47c8ffb7704ff7f3ee60bdf380049cccacd",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 8370
+    },
+    {
+      "file": "providers-es.jpg",
+      "locale": "es",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/es/04-ai-providers.jpg",
+      "source_sha256": "bb1e5a63c8a47d9eb8ebd4d6efd5f47c8ffb7704ff7f3ee60bdf380049cccacd",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 18346
+    },
+    {
+      "file": "workspace-pt-br.webp",
+      "locale": "pt-br",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/01-editor.jpg",
+      "source_sha256": "c3b79f3c0d959d07d30d24f0d78843f2cddd26ab0f298179bd2e90f3b143d588",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 66440
+    },
+    {
+      "file": "workspace-pt-br.jpg",
+      "locale": "pt-br",
+      "scene": "workspace",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/01-editor.jpg",
+      "source_sha256": "c3b79f3c0d959d07d30d24f0d78843f2cddd26ab0f298179bd2e90f3b143d588",
+      "crop": [
+        0,
+        38,
+        1590,
+        771
+      ],
+      "width": 1590,
+      "height": 771,
+      "bytes": 127852
+    },
+    {
+      "file": "languages-pt-br.webp",
+      "locale": "pt-br",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/02-regions.jpg",
+      "source_sha256": "796bef0e9173d4c9496a150b5fe42b9bea1a301168b90824a49e6b184c07537e",
+      "crop": [
+        671,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 18338
+    },
+    {
+      "file": "languages-pt-br.jpg",
+      "locale": "pt-br",
+      "scene": "languages",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/02-regions.jpg",
+      "source_sha256": "796bef0e9173d4c9496a150b5fe42b9bea1a301168b90824a49e6b184c07537e",
+      "crop": [
+        671,
+        325,
+        460,
+        468
+      ],
+      "width": 460,
+      "height": 468,
+      "bytes": 30042
+    },
+    {
+      "file": "review-pt-br.webp",
+      "locale": "pt-br",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/03-bulk-review.jpg",
+      "source_sha256": "b3fda09876f8badd11079558062c418b52d7e92c631ce247b5ad6b303ffc389d",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 39034
+    },
+    {
+      "file": "review-pt-br.jpg",
+      "locale": "pt-br",
+      "scene": "review",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/03-bulk-review.jpg",
+      "source_sha256": "b3fda09876f8badd11079558062c418b52d7e92c631ce247b5ad6b303ffc389d",
+      "crop": null,
+      "width": 720,
+      "height": 680,
+      "bytes": 65184
+    },
+    {
+      "file": "providers-pt-br.webp",
+      "locale": "pt-br",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/04-ai-providers.jpg",
+      "source_sha256": "59e152ccc027fc3a63159c2515a2988cdda63718d86af5e8be8e39da34820cb4",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 8696
+    },
+    {
+      "file": "providers-pt-br.jpg",
+      "locale": "pt-br",
+      "scene": "providers",
+      "source": "design/app-store-localized-2026-11-05/raw/pt/04-ai-providers.jpg",
+      "source_sha256": "59e152ccc027fc3a63159c2515a2988cdda63718d86af5e8be8e39da34820cb4",
+      "crop": [
+        108,
+        252,
+        604,
+        224
+      ],
+      "width": 604,
+      "height": 224,
+      "bytes": 18767
+    }
+  ]
+}

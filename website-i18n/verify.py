@@ -35,12 +35,22 @@ def main():
             ids = tree.xpath("//@id")
             assert all(count == 1 for count in Counter(ids).values()), file
             assert not tree.xpath("//@*[starts-with(name(), 'data-i18n-')]"), file
+            if page == "home":
+                assert len(tree.xpath("//h1")) == 1, file
+                store_links = tree.xpath("//a[contains(@href, 'apps.apple.com/app/localearc/id6816724027')]")
+                assert len(store_links) >= 4, file
+                assert all(link.text_content().strip() for link in store_links), file
+                videos = tree.xpath("//video[@controls and @playsinline]")
+                assert len(videos) == 1 and videos[0].get("preload") == "none", file
+                assert videos[0].xpath("./source[@type='video/mp4']"), file
+                assert videos[0].xpath(".//track[@kind='captions']"), file
+                assert all(image.get("alt", "").strip() for image in tree.xpath("//main//img")), file
             if page == "privacy":
                 assert "https://www.googleapis.com/auth/youtube.force-ssl" in tree.text_content(), file
                 assert "RevenueCat" in tree.text_content(), file
                 assert tree.xpath("//*[@id='purchases']"), file
-            for node in tree.xpath("//*[@href or @src]"):
-                for attribute in ("href", "src"):
+            for node in tree.xpath("//*[@href or @src or @poster]"):
+                for attribute in ("href", "src", "poster"):
                     value = node.get(attribute)
                     if not value or value.startswith(("mailto:", "tel:", "data:")):
                         continue

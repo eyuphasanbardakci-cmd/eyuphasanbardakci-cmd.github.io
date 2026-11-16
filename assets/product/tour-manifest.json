@@ -1,0 +1,74 @@
+[
+  {
+    "locale": "en",
+    "file": "tour-en.mp4",
+    "poster": "tour-en.jpg",
+    "captions": "tour-en.vtt",
+    "width": 1280,
+    "height": 800,
+    "duration_seconds": 22.4,
+    "audio": false,
+    "bytes": 521120,
+    "source": "Five genuine LocaleArc native screenshot scenes, deterministically composed with localized external captions and crossfades. This is a product walkthrough assembled from stills, not a live screen recording."
+  },
+  {
+    "locale": "tr",
+    "file": "tour-tr.mp4",
+    "poster": "tour-tr.jpg",
+    "captions": "tour-tr.vtt",
+    "width": 1280,
+    "height": 800,
+    "duration_seconds": 22.4,
+    "audio": false,
+    "bytes": 516394,
+    "source": "Five genuine LocaleArc native screenshot scenes, deterministically composed with localized external captions and crossfades. This is a product walkthrough assembled from stills, not a live screen recording."
+  },
+  {
+    "locale": "de",
+    "file": "tour-de.mp4",
+    "poster": "tour-de.jpg",
+    "captions": "tour-de.vtt",
+    "width": 1280,
+    "height": 800,
+    "duration_seconds": 22.4,
+    "audio": false,
+    "bytes": 588555,
+    "source": "Five genuine LocaleArc native screenshot scenes, deterministically composed with localized external captions and crossfades. This is a product walkthrough assembled from stills, not a live screen recording."
+  },
+  {
+    "locale": "fr",
+    "file": "tour-fr.mp4",
+    "poster": "tour-fr.jpg",
+    "captions": "tour-fr.vtt",
+    "width": 1280,
+    "height": 800,
+    "duration_seconds": 22.4,
+    "audio": false,
+    "bytes": 583118,
+    "source": "Five genuine LocaleArc native screenshot scenes, deterministically composed with localized external captions and crossfades. This is a product walkthrough assembled from stills, not a live screen recording."
+  },
+  {
+    "locale": "es",
+    "file": "tour-es.mp4",
+    "poster": "tour-es.jpg",
+    "captions": "tour-es.vtt",
+    "width": 1280,
+    "height": 800,
+    "duration_seconds": 22.4,
+    "audio": false,
+    "bytes": 530378,
+    "source": "Five genuine LocaleArc native screenshot scenes, deterministically composed with localized external captions and crossfades. This is a product walkthrough assembled from stills, not a live screen recording."
+  },
+  {
+    "locale": "pt-br",
+    "file": "tour-pt-br.mp4",
+    "poster": "tour-pt-br.jpg",
+    "captions": "tour-pt-br.vtt",
+    "width": 1280,
+    "height": 800,
+    "duration_seconds": 22.4,
+    "audio": false,
+    "bytes": 584197,
+    "source": "Five genuine LocaleArc native screenshot scenes, deterministically composed with localized external captions and crossfades. This is a product walkthrough assembled from stills, not a live screen recording."
+  }
+]

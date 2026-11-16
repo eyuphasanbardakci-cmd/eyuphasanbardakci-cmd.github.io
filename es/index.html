@@ -3,19 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="LocaleArc es un espacio de trabajo para macOS centrado en el almacenamiento local para traducir y publicar localizaciones de vídeos de YouTube aprobadas.">
+  <meta name="description" content="Traduce títulos y descripciones de YouTube en un mismo espacio de trabajo. Revisa cada borrador y publica las traducciones que elijas.">
   <meta name="theme-color" content="#111a36">
   <title>LocaleArc — Localización de YouTube para macOS</title>
   <link rel="canonical" href="https://localearc.com/es/">
   <meta property="og:site_name" content="LocaleArc">
   <meta property="og:title" content="LocaleArc — Localización de YouTube para macOS">
   <meta property="og:url" content="https://localearc.com/es/">
-  <meta property="og:image" content="https://localearc.com/assets/localearc-google-branding-la-v2-120.png">
+  <meta property="og:image" content="https://localearc.com/assets/product/social-preview.jpg">
   <link rel="icon" href="/assets/localearc-google-branding-la-v2-120.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/localearc-google-branding-la-v2-120.png">
   <link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/product-page.css">
+<meta property="og:description" content="Traduce títulos y descripciones de YouTube en un mismo espacio de trabajo. Revisa cada borrador y publica las traducciones que elijas.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<script src="/assets/product-page.js" defer></script>
 <link rel="alternate" hreflang="en" href="https://localearc.com/"><link rel="alternate" hreflang="tr" href="https://localearc.com/tr/"><link rel="alternate" hreflang="de" href="https://localearc.com/de/"><link rel="alternate" hreflang="es" href="https://localearc.com/es/"><link rel="alternate" hreflang="fr" href="https://localearc.com/fr/"><link rel="alternate" hreflang="pt-BR" href="https://localearc.com/pt-br/"><link rel="alternate" hreflang="x-default" href="https://localearc.com/"></head>
-<body>
+<body class="product-home">
   <a class="skip-link" href="#main">Saltar al contenido</a>
 
   <header class="site-header">
@@ -25,43 +30,140 @@
         <span>LocaleArc</span>
       </a>
       <nav class="site-nav" aria-label="Navegación principal">
-        <a aria-current="page" href="/es/">Producto</a>
-        <a href="/es/privacy/">Privacidad</a>
-        <a href="/es/terms/">Condiciones</a>
-        <a href="mailto:anatolianapps@gmail.com">Contacto</a>
-
-      <details class="language-menu"><summary aria-label="Elegir idioma">Español</summary><nav class="language-options" aria-label="Idioma"><a href="/" lang="en" hreflang="en" aria-label="English">English</a><a href="/tr/" lang="tr" hreflang="tr" aria-label="Türkçe">Türkçe</a><a href="/de/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a><a href="/es/" lang="es" hreflang="es" aria-label="Español" aria-current="true">Español</a><a href="/fr/" lang="fr" hreflang="fr" aria-label="Français">Français</a><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" aria-label="Português (Brasil)">Português (Brasil)</a></nav></details></nav>
+<a class="nav-product" aria-current="page" href="/es/">Producto</a>
+<a class="nav-workflow" href="#workflow">Cómo funciona</a>
+<a href="#pricing">Precios</a>
+<a class="nav-download" href="https://apps.apple.com/app/localearc/id6816724027"><span>Descargar para Mac</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+<details class="language-menu"><summary aria-label="Elegir idioma">Español</summary><nav class="language-options" aria-label="Idioma"><a href="/" lang="en" hreflang="en" aria-label="English">English</a><a href="/tr/" lang="tr" hreflang="tr" aria-label="Türkçe">Türkçe</a><a href="/de/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a><a href="/es/" lang="es" hreflang="es" aria-label="Español" aria-current="true">Español</a><a href="/fr/" lang="fr" hreflang="fr" aria-label="Français">Français</a><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" aria-label="Português (Brasil)">Português (Brasil)</a></nav></details></nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero">
-      <div class="page-shell hero-grid">
+  <section class="launch-hero">
+    <div class="page-shell">
+      <div class="launch-intro">
         <div>
-          <p class="eyebrow">Espacio de trabajo para macOS con almacenamiento local</p>
-          <h1>Lleva tus metadatos de YouTube más allá.</h1>
-          <p class="hero-copy">LocaleArc ayuda a los propietarios de canales a traducir títulos y descripciones de vídeos, revisar cada borrador y publicar solo las localizaciones que aprueban.</p>
-          <div class="tag-row" aria-label="Características destacadas">
-            <span class="tag">macOS 14+</span>
-            <span class="tag">YouTube Data API v3</span>
-            <span class="tag">Tu proveedor de IA</span>
-            <span class="tag">Espacio de trabajo local</span>
-          </div>
-        </div>
-
-        <div class="hero-panel" aria-label="Resumen del flujo de trabajo de LocaleArc">
-          <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-          <img class="hero-app-icon" src="/assets/localearc-google-branding-la-v2-120.png" alt="Símbolo de marca LA de LocaleArc" width="76" height="76">
-          <ol class="flow-list">
-            <li><span class="flow-number">01</span><span>Conecta tu propio canal de YouTube</span></li>
-            <li><span class="flow-number">02</span><span>Crea y edita borradores de traducción</span></li>
-            <li><span class="flow-number">03</span><span>Aprueba el contenido antes de publicarlo</span></li>
-          </ol>
+<p class="eyebrow">LOCALIZACIÓN DE YOUTUBE, PARA MAC</p>
+<h1>Tus vídeos.<br>Más idiomas.</h1>
+</div>
+        <div class="launch-description">
+          <p>Traduce títulos y descripciones de YouTube en un mismo espacio de trabajo. Revisa cada borrador y publica las traducciones que elijas.</p>
+          <div class="download-actions">
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>Descargar para Mac</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a><a class="tour-link" href="#tour"><svg aria-hidden="true" width="19" height="19" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"></circle><path d="m10 8 6 4-6 4Z"></path></svg><span>Ver la presentación</span></a>
+</div>
+          <p class="free-note">Prueba gratis un vídeo en un idioma.</p>
+          <p class="compatibility-note">macOS 14 o posterior · Tu propia clave de API de IA</p>
         </div>
       </div>
-    </section>
-
-    <section class="section section-tint" aria-labelledby="workflow-title">
+      <figure class="hero-workspace">
+        <div class="workspace-frame"><img class="" src="/assets/product/workspace-es.webp" alt="El espacio de trabajo de LocaleArc con la biblioteca de vídeos, el progreso de traducción y un borrador listo para revisar." width="1590" height="880" loading="eager" decoding="async" fetchpriority="high"></div>
+        <figcaption><span>Tu canal. Tus traducciones. Tú decides.</span><span>Pantallas reales de la aplicación con contenido de ejemplo.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="product-section" id="workflow" aria-labelledby="review-heading">
+    <div class="page-shell product-grid">
+      <div class="product-text">
+        <p class="eyebrow">Del borrador a la publicación</p>
+<h2 id="review-heading">Haz tuya<br>cada palabra.</h2>
+<p>La IA prepara el borrador. Tú decides. Lee el texto, ajusta los detalles y elige exactamente lo que quieres publicar.</p>
+        <ol class="workflow-steps">
+          <li>
+<h3>Conecta tu canal</h3>
+<p>Inicia sesión con Google y abre los vídeos de un canal de YouTube que gestiones.</p>
+</li>
+          <li>
+<h3>Traduce y revisa</h3>
+<p>Elige los idiomas y el proveedor de IA. Revisa los títulos y descripciones en tu espacio de trabajo.</p>
+</li>
+          <li>
+<h3>Aprueba y publica</h3>
+<p>Publica juntas las traducciones seleccionadas y comprueba cuáles están ya publicadas.</p>
+</li>
+        </ol>
+      </div>
+      <figure class="product-figure"><img class="" src="/assets/product/review-es.webp" alt="La pantalla de revisión en lote de LocaleArc con el texto completo y la selección de traducciones para publicar." width="720" height="680" loading="lazy" decoding="async"></figure>
+    </div>
+  </section>
+  <section class="product-section tour-section" id="tour" aria-labelledby="tour-heading">
+    <div class="page-shell">
+      <p class="eyebrow">DESCUBRE LOCALEARC EN ACCIÓN</p>
+<h2 id="tour-heading">Así será tu próxima forma de trabajar.</h2>
+      <video class="tour-player" controls playsinline preload="none" poster="/assets/product/tour-es.jpg" aria-label="Presentación de LocaleArc">
+        <source type="video/mp4" src="/assets/product/tour-es.mp4">
+        <track kind="captions" src="/assets/product/tour-es.vtt" srclang="es" label="Español">
+        <a href="/assets/product/tour-es.mp4">Abrir el vídeo de presentación</a>
+      </video>
+      <p class="tour-caption">Una breve presentación sin sonido, creada con capturas reales de la aplicación y contenido de ejemplo.</p>
+    </div>
+  </section>
+  <section class="product-section" aria-labelledby="languages-heading">
+    <div class="page-shell product-grid">
+      <figure class="product-figure language-figure"><img class="" src="/assets/product/languages-es.webp" alt="El selector de idiomas de LocaleArc con las variantes regionales del inglés desplegadas." width="452" height="470" loading="lazy" decoding="async"></figure>
+      <div class="product-text">
+<p class="eyebrow">Idiomas y regiones</p>
+<h2 id="languages-heading">Escribe para el público<br>que tienes en mente.</h2>
+<p>Elige entre 16 idiomas y 17 variantes regionales opcionales. Consulta cada título, descripción y estado de traducción en un mismo lugar.</p>
+</div>
+    </div>
+  </section>
+  <section class="product-section" aria-labelledby="providers-heading">
+    <div class="page-shell product-grid">
+      <div class="product-text">
+        <p class="eyebrow">Elige tu IA</p>
+<h2 id="providers-heading">Añade tu clave.<br>Elige tu modelo.</h2>
+<p>Trabaja con Gemini, OpenRouter u Ollama Cloud con tu propia clave de API. Las solicitudes de traducción se envían directamente desde tu Mac al proveedor que elijas.</p>
+        <div class="provider-names" aria-label="Elige tu IA">
+<span>Gemini</span><span>OpenRouter</span><span>Ollama Cloud</span>
+</div>
+        <p class="provider-note">El acceso, las cuotas y los costes de uso del proveedor de IA son independientes de LocaleArc Pro.</p>
+      </div>
+      <figure class="product-figure provider-figure"><img class="" src="/assets/product/providers-es.webp" alt="Los ajustes de IA de LocaleArc con las opciones Gemini, OpenRouter y Ollama Cloud." width="590" height="219" loading="lazy" decoding="async"></figure>
+    </div>
+  </section>
+  <section class="product-section" id="pricing" aria-labelledby="pricing-heading">
+    <div class="page-shell">
+      <div class="pricing-heading">
+<p class="eyebrow">EMPIEZA CON TU PRÓXIMO VÍDEO</p>
+<h2 id="pricing-heading">Prueba cómo funciona.<br>Da el siguiente paso.</h2>
+</div>
+      <div class="price-grid">
+        <article class="price-card">
+          <h3>Gratis</h3>
+<p class="price-description">Conoce LocaleArc con tu propio canal.</p>
+<p class="price-amount">0 US$</p>
+          <ul class="price-features">
+<li>1 vídeo en 1 idioma de tu elección</li>
+<li>Revisa, edita y publica tu borrador</li>
+<li>Usa tu proveedor de IA y tu clave de API</li>
+</ul>
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>Empieza gratis en el App Store</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+        </article>
+        <article class="price-card price-card-pro">
+          <h3>LocaleArc Pro</h3>
+<p class="price-description">Para los vídeos e idiomas con los que trabajas habitualmente.</p>
+          <p class="price-amount"><span>3,99 US$</span><span class="price-period">/ mes</span></p>
+          <ul class="price-features">
+<li>Elimina los límites de vídeos e idiomas de la aplicación</li>
+<li>Crea borradores en varios idiomas para el vídeo abierto</li>
+<li>Revisa las traducciones seleccionadas y publícalas juntas</li>
+</ul>
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>Descargar LocaleArc</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+        </article>
+      </div>
+      <p class="price-disclosure">Precio base de Estados Unidos. Apple muestra el precio local y las condiciones antes de la compra. Pro se renueva cada mes hasta que lo canceles. Los costes del proveedor de IA se cobran aparte.</p>
+    </div>
+  </section>
+  <section class="product-section" aria-labelledby="faq-heading">
+    <div class="page-shell">
+      <div class="faq-grid">
+        <h2 id="faq-heading">Antes de empezar.</h2>
+        <div class="faq-list">
+<details><summary>¿Qué puedo hacer gratis?</summary><p>Traduce 1 vídeo a 1 idioma de tu elección y después edita y publica ese borrador. Puedes volver a traducir el mismo vídeo al idioma elegido. Se aplican las condiciones y los posibles costes de uso del proveedor de IA.</p></details><details><summary>¿Necesito una clave de API de IA?</summary><p>Sí. Conecta tu cuenta de Gemini, OpenRouter u Ollama Cloud con una clave de API. El proveedor factura el uso de la IA por separado de la suscripción a LocaleArc.</p></details><details><summary>¿LocaleArc traduce audio o subtítulos?</summary><p>LocaleArc trabaja con los títulos y descripciones de los vídeos de YouTube. El audio, las imágenes de vídeo y los subtítulos quedan fuera de este proceso.</p></details><details><summary>¿Cuándo se publican mis traducciones?</summary><p>Tú revisas los borradores e inicias la publicación. Al publicar en lote, la acción final aprueba y publica únicamente las traducciones seleccionadas.</p></details><details><summary>¿Qué necesito para empezar?</summary><p>Un Mac con macOS 14 o posterior, acceso a un canal de YouTube que gestiones y tu propia clave de API de un proveedor de IA compatible.</p></details>
+</div>
+      </div>
+      <details class="technical-disclosure" id="connections"><summary>Conexiones de cuentas y tratamiento de datos</summary><div class="technical-body">
+<section class="section section-tint" aria-labelledby="workflow-title">
       <div class="page-shell">
         <div class="section-heading">
           <p class="eyebrow">Cómo funciona</p>
@@ -142,9 +244,18 @@
     </section>
 
 
-  </main>
-
-  <footer class="site-footer">
+  </div></details>
+    </div>
+  </section>
+  <section class="final-download">
+    <div class="page-shell">
+<h2>Tu próximo vídeo.<br>Tu próximo idioma.</h2>
+<p>Conecta tu canal a LocaleArc y empieza con una traducción.</p>
+<a class="store-button" href="https://apps.apple.com/app/localearc/id6816724027"><span>Descargar para Mac</span><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 17 17 7M7 7h10v10"></path></svg></a><p class="compatibility-note">macOS 14 o posterior · Tu propia clave de API de IA</p>
+</div>
+  </section>
+</main>
+<footer class="site-footer">
     <div class="footer-shell">
       <span>© 2026 Anatolia Apps · LocaleArc para macOS</span>
       <nav class="footer-links" aria-label="Navegación del pie de página">

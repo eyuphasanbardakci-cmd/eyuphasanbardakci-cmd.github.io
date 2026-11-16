@@ -116,6 +116,8 @@ def render(locale, page, translated):
     output = DOCS / route(locale, page).lstrip("/") / "index.html"
     output.parent.mkdir(parents=True, exist_ok=True)
     rendered = etree.tostring(tree, method="html", encoding="unicode", doctype="<!doctype html>")
+    # libxml's HTML4 serializer adds end tags for these HTML5 void elements.
+    rendered = re.sub(r"</(?:source|track)>", "", rendered)
     output.write_text("\n".join(line.rstrip() for line in rendered.splitlines()) + "\n")
     return output
 
